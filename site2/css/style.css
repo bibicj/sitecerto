@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px&display=swap');
+
+body{
+    font-family: 'Slabo 27px', serif;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+/* NAVBAR */
+
+.navbar{
+    background-color: #5e0707;
+    color: white;
+}
+
+.nav{
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.cool-link {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #ffffff;
+    transition: width .4s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .4s;
+}
+
+/* HOME */
+
+.bg-home{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel{
+    height: 86.5vh;
+}
+
+.carousel-item{
+    height:86.5vh;
+}
+
+.carousel-control-next{
+    padding: 90px; 
+}
+
+/* QUEM SOMOS? */
+
+.quemsomos{
+    background-color: #F1DBDB;
+    height: 100vh;   
+    overflow-x: hidden;
+}
+
+
+#titulo{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 10vh;
+    width: 50vw;       
+}
+#texto{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+.imagemqs1{
+    height:300px;
+    width: 300px;
+    padding-top:10vh;
+    margin-left:7vw; 
+}
+
+.imagemqs2{
+    height:300px;
+    width: 300px;
+    padding-top:3vh;
+    padding-bottom: 2vh;
+    margin-left: 7vw;   
+}
+
+/* FOOTER */
+footer{
+    color: white;
+    height: 5vh;
+    background-color: #5e0707;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* -------------------------------------------------SEGUNDA PÁGINA-------------------------------------------------- */
+
+
+/* PRODUTOS */
+
+.produtos{
+    background-color: #F1DBDB;
+}
+
+figure {
+	position:relative;
+	width:100%;
+	min-height:160px;
+	display:block;
+	float:left;
+	overflow:hidden;
+	margin:10px 0;
+	box-shadow:inset 0px 2px 3px rgba(0,0,0,0.2);
+	-webkit-transition: all .15s ease-in-out;
+}
+.ocean {
+    background-color:0;
+	background-size:cover;
+    background-position: center center;
+    text-align: center;
+    
+}
+figcaption {
+	display:block;
+	float:0;
+	position:absolute;
+	top:0;
+	left:0;
+	color:#7B0606;
+	font-size:40px;
+	line-height:20px;
+	background-color:rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;
+	margin:0 0 0 0;
+    padding:70px;
+	padding-left:50px;
+	
+}
+
+#salgados{
+    background-image: url('../imagem/salgados.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+#empada{
+    background-image: url('../imagem/empada.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+}
+#cupcake{
+    background-image: url('../imagem/cupcake.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+}
+#paodequeijo{
+    background-image: url('../imagem/paodequeijo.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+#tortasalgada{
+    background-image: url('../imagem/');
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+}
+#tortas{
+    background-image: url('../imagem/tortas.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+#bolosconfeitados{
+    background-image: url('../imagem/boloconfeitado.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+}
+#paes{
+    background-image: url('../imagem/paes.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+
+}
+
+#sonho{
+    background-image: url('../imagem/sonho.png');
+    background-repeat: no-repeat;
+    background-size:cover; 
+}
+
+/* CONTATOS */
+
+.contatos{
+    background-color: #F1DBDB;
+    height: 100vh;   
+    overflow-x: hidden;
+}
+
+.mapa{
+    margin-top:15vh;
+}
+
+.textomapa{
+	text-align: center;
+}
+
+.phone{
+    height:80px;
+    width: 80px;
+    margin-top: 15vh;
+}
+
+.insta{
+    height:80px;
+    width: 80px;
+	margin-top: 16vh;
+}
+
+.email{
+    height:80px;
+    width: 80px;
+	margin-top: 17vh;
+	
+}
+
+.textphone{
+    text-align:center;
+    margin-top: 16vh;
+    font-size: 20px;
+}
+
+.textinsta{
+    text-align:center;
+    margin-top: 21vh;
+    font-size: 20px;
+
+}
+.textemail{
+    text-align:center;
+    margin-top: 26.3vh;
+    font-size: 20px;
+
+}
+
+#textos{
+	text-align: center;
+}
+
+.salgados{
+    padding-top:20vh;
+
+}
+
+/* HOVERS */
+
+
+
+
+/* AREA DE LOGIN */

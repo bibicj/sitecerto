@@ -1,0 +1,12 @@
+#home{
+    background-image: url('../img/home-bg.jpg');
+    background-color: red;
+    height: 90vh;
+}
+#mais{
+    background-color: blue;
+    height: 10vh;
+}
+.texto{
+    color: red;
+}
