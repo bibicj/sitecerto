@@ -1,0 +1,127 @@
+body{
+    background-color: #F1E8E8;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #5e0707;
+    color: white;
+}
+
+.nav{
+    color: white;
+    font-size: 40px;
+}
+
+.nav2{
+    color: white;
+    font-size: 40px;
+    margin-right: 200px;
+}
+
+.nav-item{
+    margin-right: 400px;
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.cool-link {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #ffffff;
+    transition: width .4s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .4s;
+}
+
+/* TELA TODA */
+
+.telatoda{
+    width: 100%;
+    height: 48.8vh;
+}
+
+/* FOOTER */
+
+footer{
+    color: white;
+    height: 5vh;
+    background-color: #5e0707;
+    text-align: center;
+    padding: 5px;
+}
+
+.sair{
+    color: white;
+}
+
+/* FORMULÁRIO 1*/
+
+#fundo{
+    height: 78.8vh;
+}
+
+.log{
+    margin-left: 35vw;
+    margin-top: 30vh;
+}
+
+.form-control{
+    width: 25vw;
+}
+
+.botao{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: -255px;
+}
+
+a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* FORMULÁRIO 2 */
+
+
+form{
+    position: relative;
+    margin-top: 15vh;
+    margin-left: 10vw;
+    
+}
+
+.telefone{
+    margin-top: 2vh;
+}
+.email{
+    margin-top: 2vh;
+}
+
+.mensagem{
+    margin-top: 2vh;
+    height: 15vh;
+    padding-bottom: 10vh;
+    resize: none;
+}
+
+
+.botao2{
+    margin-top: 5vh;
+    
+}
